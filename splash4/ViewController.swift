@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         mylabel.font = UIFont.boldSystemFont(ofSize: 15.0)
+        print("Load")
     }
 
     override func didReceiveMemoryWarning() {
